@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: linear-gradient(to left, black);
+    height: 115vh;
+}
+
+#inputdata {
+
+    text-align: center;
+    justify-content: center;
+}
+
+#input,
+.style {
+    width: 38%;
+    font-size: 20px;
+    margin: 11px;
+    border-radius: 8px;
+}
+
+#outputdata {
+    border: 3px solid black;
+    width: 38%;
+    margin: 11px auto;
+    text-align: end;
+}
+
+#add,
+#delete,
+#edit {
+    font-size: 18px;
+    font-weight: 202;
+    background-color: hotpink;
+    cursor: pointer;
+    color: black;
+    border-radius: 4px;
+}
+
+#delete {
+
+    margin: 3px 4px;
+}
+
+.style {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 3px solid black;
+    width: 35%;
+    margin: 11px auto;
+}
+
+#edit {
+    position: absolute;
+    right: 15%;
+    margin: 3px 4px;
+}
+
+.heading {
+    text-align: center;
+    color: maroon;
+}
+
+input[type="text"] {
+    color: green;
+}
+
+.chaptername {
+    color: purple;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 4px;
+}
+
+input {
+    border: 3px solid purple;
+    margin: 4px;
+    border-radius: 4px;
+    font-size: 17px;
+}
+#believe{
+    color:rgb(250, 4, 163);
+}
+@media (max-width:251px) {
+    input[type="text"]{
+        width: 16%;
+        font-size: 11px;
+    }
+}
+
+@media (max-width:769px) {
+    .style{
+        width: 51%;
+    
+    }
+    .chaptername{
+        font-size: 15px;
+    }
+    #input{
+        width: 50%;
+    }
+    input[type="text"]{
+        width: 60%;
+        font-size: 16px;
+    }
+    #edit,#delete{
+        width: auto;
+        font-size: 16px;
+    }
+    #edit{
+        margin: 3px 16px;
+    }
+    #add{
+        font-size: 16px;
+        
+    }
+}
+@media (max-width:541px) {
+    #edit{
+        margin: 3px 26px;
+        font-size: 14px;
+
+    }
+    .chaptername{
+        font-size: 14px;
+    }
+    input[type="text"]{
+        width: 50%;
+        font-size: 14px;
+    }
+
+    #delete{
+        font-size: 14px;
+    }
+}
+@media (max-width:431px) {
+    #edit{
+        margin: 3px 36px;
+    }
+    .chaptername{
+        font-size: 11.5px;
+
+    }
+    input[type="text"]{
+        width: 40%;
+        font-size: 11.5px;
+    }
+
+}
+@media (max-width:1500px) {
+    #input{
+        width: 66%;
+    }
+    .style{
+        width: 56%;
+    }
+    .text{
+        width: 70%;
+    }
+    input[typr="text"]{
+        width: 80%;
+    }
+}
